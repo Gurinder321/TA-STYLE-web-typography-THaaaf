@@ -1,0 +1,312 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-color: rgb(255, 255, 255);
+  font-family: "Karla", sans-serif;
+  /* font-family: "DM Serif Display", serif; */
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 100px;
+}
+
+.header img {
+  width: 100px;
+}
+
+.nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: gray;
+  font-weight: 800;
+  padding: 10px 10px;
+  margin: 5px;
+}
+.nav .view-plans {
+  border: 1px solid grey;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.section-1 {
+  background-color: #2d2540;
+  margin: 10px auto;
+  display: flex;
+  justify-content: left;
+}
+.section-1 .border {
+  border-bottom: 1px solid white;
+  width: 200px;
+  padding-top: 100px;
+  margin-left: 30px;
+}
+.section-1 h1 {
+  color: white;
+  font-size: 56px;
+  margin: 30px;
+}
+.section-1 p {
+  color: rgb(213, 213, 213);
+  margin: 30px;
+  line-height: 1.5;
+}
+.section-1 button {
+  margin-left: 30px;
+  background-color: #2d2540;
+  color: white;
+  border: 1px solid #2d2540;
+  text-transform: uppercase;
+  font-size: 15px;
+  border: 1px solid white;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+.section-1 img {
+  padding-right: 125px;
+  padding-top: 80px;
+}
+.section-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-2 h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.section-2 p {
+  font-size: 20px;
+  color: grey;
+  line-height: 1.3;
+}
+.section-2 button {
+  background-color: white;
+  border: 1px solid grey;
+  color: grey;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.section-2 .section-2-2 {
+  padding: 100px;
+}
+.section-3 .border {
+  border-bottom: 1px solid grey;
+  width: 200px;
+  padding-top: 100px;
+}
+.section-3 img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+.section-3 h2 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.section-3 h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.section-3 p {
+  font-size: 18px;
+  line-height: 1.3;
+  color: grey;
+}
+.columns-3 {
+  display: flex;
+  justify-content: space-between;
+}
+.section-4 {
+  background-color: #2d2540;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-4 h2 {
+  color: white;
+  font-size: 48px;
+  padding: 30px;
+}
+.container-4 {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left: 200px;
+  margin-right: 20px;
+  padding: 32px;
+}
+.section-4 button {
+  background-color: #2d2540;
+  border: 1px solid white;
+  padding: 15px 25px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.section-5 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  width: 90%;
+}
+.section-5 img {
+  width: 100px;
+}
+.nav-4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 400px;
+}
+.nav-4 a {
+  text-decoration: none;
+  color: grey;
+}
+.footer {
+  text-align: center;
+  background-color: #2d2540;
+  padding: 40px;
+  color: grey;
+  font-size: 20px;
+}
